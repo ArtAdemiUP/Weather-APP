@@ -39,18 +39,8 @@ Formë kontakti me validim të të dhënave
 
 Event handling dhe manipulim DOM
 
-❗ Aplikacioni React NUK mund të përdoret pa konfigurim paraprak.
+❗ Aplikacioni NUK mund të përdoret pa liveserver.
 
-Për të ekzekutuar versionin React, duhet patjetër të jenë të instaluara dhe të konfiguruara:
+Website nuk mun ti bëj fetch API keys nëse nuk bëhet launch me liveserver.
 
-Node.js
 
-npm
-
-React
-
-Tailwind CSS
-
-package.json
-
-Pa këto konfigurime, projekti nuk do të startojë.
