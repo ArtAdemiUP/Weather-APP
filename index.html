@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.pinimg.com/originals/06/c4/f7/06c4f70ec5931e2342e703e8a3f0a253.png" type="image/png">
+    <title>WeatherApp - Parashikimi i Motit</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">☀️ WeatherApp</a>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Parashikimi i Motit</h1>
+                <p>Merrni informacione të sakta për motin në çdo qytet të botës</p>
+                <div class="search-container">
+                    <input type="text" id="cityInput" placeholder="Shkruani emrin e qytetit..." class="search-input">
+                    <button id="searchBtn" class="search-btn">🔍 Kërko</button>
+                </div>
+                <div id="searchError" class="error-message"></div>
+            </div>
+        </div>
+    </section>
+    <section class="current-weather" id="currentWeather" style="display: none;">
+        <div class="container">
+            <div class="weather-card main-weather">
+                <div class="weather-header">
+                    <h2 id="cityName">Loading...</h2>
+                    <p id="currentDate"></p>
+                </div>
+                <div class="weather-main">
+                    <div class="weather-icon-large">
+                        <img id="weatherIcon" src="" alt="Weather Icon">
+                    </div>
+                    <div class="weather-temp">
+                        <span id="temperature">--</span>°C
+                    </div>
+                </div>
+                <div class="weather-description">
+                    <p id="weatherDescription">--</p>
+                </div>
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <span class="detail-label">💨 Era</span>
+                        <span class="detail-value" id="windSpeed">-- km/h</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">💧 Lagështia</span>
+                        <span class="detail-value" id="humidity">--%</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">🌡️ Ndjesia</span>
+                        <span class="detail-value" id="feelsLike">--°C</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">👁️ Dukshmëria</span>
+                        <span class="detail-value" id="visibility">-- km</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="forecast-section" id="forecastSection" style="display: none;">
+        <div class="container">
+            <h2 class="section-title">Parashikimi për 7 Ditë</h2>
+            <div class="forecast-grid" id="forecastGrid">
+            </div>
+        </div>
+    </section>
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Përse të Zgjidhni WeatherApp?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Të Dhëna të Sakta</h3>
+                    <p>Informacione të përditësuara në kohë reale nga burime të besueshme meteorologjike</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Mbulim Global</h3>
+                    <p>Kontrolloni motin në çdo qytet anembanë botës me një klikim</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Përdorni aplikacionin në çdo pajisje - desktop, tablet ose celular</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Shpejtësi e Lartë</h3>
+                    <p>Merrni rezultate të shpejta dhe të sakta për çdo kërkesë</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>☀️ WeatherApp</h3>
+                    <p>Aplikacioni juaj i besueshëm për parashikimin e motit</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Lidhje të Shpejta</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                    <div class="footer-section">
+                    <h4>Kontakti</h4>
+                    <p>Email: WeatherApp@gmail.com </p>
+                    <p>Tel: +383 44 123 456</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WeatherApp. Të gjitha të drejtat e rezervuara.</p>
+            </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./config.js"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
