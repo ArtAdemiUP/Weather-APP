@@ -1,4 +1,4 @@
-✨ Çfarë Ofron WeatherPro
+✨ Çfarë Ofron WeatherApp
 🏠 Home – Parashikimi i Motit
 
 Kërkim i qytetit sipas emrit
