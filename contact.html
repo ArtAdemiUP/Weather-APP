@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+    <title>Contact - WeatherApp</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">☀️ WeatherApp</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html" class="active">Contact</a>
+    </div>
+    <section class="page-header">
+        <div class="container">
+            <h1>Na Kontaktoni</h1>
+            <p>Jemi këtu për t'ju ndihmuar me çdo pyetje apo kërkesë</p>
+        </div>
+    </section>
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <h2>Dërgoni një Mesazh</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Emri dhe Mbiemri *</label>
+                            <input type="text" id="name" name="name" required placeholder="Shkruani emrin tuaj">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="email@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefoni</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+355 69 123 4567">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subjekti *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Zgjidhni një subjekt</option>
+                                <option value="general">Pyetje të Përgjithshme</option>
+                                <option value="technical">Mbështetje Teknike</option>
+                                <option value="billing">Çështje Financiare</option>
+                                <option value="partnership">Partneritet</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Tjetër</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mesazhi *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Shkruani mesazhin tuaj këtu..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Dërgo Mesazhin</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+                <div class="contact-info-container">
+                    <div class="contact-info-card">
+                        <div class="contact-image">
+                            <img src="./assets/contact-support.jpg" alt="Customer Support">
+                        </div>
+                        
+                        <h3>Informacione Kontakti</h3>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <div class="info-content">
+                                <h4>Adresa</h4>
+                                <p>Rruga "Muharrem Fejza"<br>Prishtinë, Kosovë 10000</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">📧</div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p>WeatherApp@gmail.com</a><br><p>WeatherApp@hotmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">📞</div>
+                            <div class="info-content">
+                                <h4>Telefoni</h4>
+                                <p>+383 44 123 456<br>+383 49 123 456</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">⏰</div>
+                            <div class="info-content">
+                                <h4>Orari i Punës</h4>
+                                <p>E Hënë - E Premte: 9:00 - 18:00<br>E Shtunë: 10:00 - 14:00<br>E Diel: Mbyllur</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h4>Na Ndiqni</h4>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon">📘</a>
+                                <a href="#" class="social-icon">📷</a>
+                                <a href="#" class="social-icon">🐦</a>
+                                <a href="#" class="social-icon">💼</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Vendndodhja Jonë</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3061.0203871811967!2d21.17450061544751!3d42.64630227916637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13538f63e5b98007%3A0xee6b1aceb6dede18!2sRruga%20Muharrem%20Fejza%2C%20Prishtin%C3%AB%2010000%2C%20Kosov%C3%AB!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Pyetje të Shpeshta (FAQ)</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Si mund të marr parashikimin e motit?</h3>
+                    <p>Thjesht shkruani emrin e qytetit në fushën e kërkimit në faqen kryesore dhe klikoni butonin "Kërko". Do të merrni informacione të detajuara për motin aktual dhe parashikimin për 7 ditë.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>A është shërbimi falas?</h3>
+                    <p>Po, ne ofrojmë një plan bazik falas që përfshin parashikimin aktual dhe për 3 ditë. Për karakteristika të avancuara, mund të zgjidhni plani Pro ose Enterprise.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Sa i saktë është parashikimi?</h3>
+                    <p>Ne përdorim të dhëna nga burime të besueshme meteorologjike dhe algoritme të avancuara për të ofruar parashikime me saktësi të lartë. Saktësia rritet për ditët më të afërta.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>A mund të marr alarme për motin?</h3>
+                    <p>Po, me planin Pro dhe Enterprise mund të konfiguroni alarme të personalizuara për kushte të veçanta të motit si stuhitë, temperaturat ekstreme, etj.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>☀️ WeatherApp</h3>
+                    <p>Aplikacioni juaj i besueshëm për parashikimin e motit</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Lidhje të Shpejta</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakti</h4>
+                    <p>Email: WeatherApp@gmail.com </p>
+                    <p>Tel: +383 44 123 456</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WeatherApp. Të gjitha të drejtat e rezervuara.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./script.js"></script>
+</body>
+
+</html>
