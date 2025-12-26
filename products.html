@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+    <title>Products - WeatherApp</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">☀️ WeatherApp</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <section class="page-header">
+        <div class="container">
+            <h1>Produktet Tona</h1>
+            <p>Zgjidhje profesionale për çdo nevojë meteorologjike</p>
+        </div>
+    </section>
+    <section class="products-content">
+        <div class="container">
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="plan-badge">FALAS</div>
+                    <h3>Plan Bazik</h3>
+                    <div class="plan-price">
+                        <span class="price">€0</span>
+                        <span class="period">/muaj</span>
+                    </div>
+                    <p class="plan-description">Ideal për përdoruesit individual</p>
+                    <ul class="plan-features">
+                        <li>✓ Parashikimi aktual i motit</li>
+                        <li>✓ Parashikimi për 3 ditë</li>
+                        <li>✓ Kërkime të kufizuara (10/ditë)</li>
+                        <li>✓ Informacione bazike</li>
+                        <li>✗ Harta interaktive</li>
+                        <li>✗ Alarme personalizuara</li>
+                        <li>✗ Eksport të dhënash</li>
+                    </ul>
+                    <button class="plan-btn">Fillo Falas</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="plan-badge popular">MË I POPULLARIZUAR</div>
+                    <h3>Plan Pro</h3>
+                    <div class="plan-price">
+                        <span class="price">€9.99</span>
+                        <span class="period">/muaj</span>
+                    </div>
+                    <p class="plan-description">Për përdoruesit e avancuar</p>
+                    <ul class="plan-features">
+                        <li>✓ Të gjitha karakteristikat bazike</li>
+                        <li>✓ Parashikimi për 7 ditë</li>
+                        <li>✓ Kërkime të pakufizuara</li>
+                        <li>✓ Harta interaktive të motit</li>
+                        <li>✓ Alarme personalizuara</li>
+                        <li>✓ Parashikim orë për orë</li>
+                        <li>✓ Cilësia e ajrit</li>
+                        <li>✗ API Access</li>
+                    </ul>
+                    <button class="plan-btn primary">Zgjidhni Pro</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="plan-badge">BIZNES</div>
+                    <h3>Plan Enterprise</h3>
+                    <div class="plan-price">
+                        <span class="price">€49.99</span>
+                        <span class="period">/muaj</span>
+                    </div>
+                    <p class="plan-description">Për biznese dhe organizata</p>
+                    <ul class="plan-features">
+                        <li>✓ Të gjitha karakteristikat Pro</li>
+                        <li>✓ Parashikimi për 14 ditë</li>
+                        <li>✓ API Access i plotë</li>
+                        <li>✓ Të dhëna historike</li>
+                        <li>✓ Eksport në CSV/JSON</li>
+                        <li>✓ Mbështetje prioritare</li>
+                        <li>✓ Raporte të personalizuara</li>
+                        <li>✓ Integrime të avancuara</li>
+                    </ul>
+                    <button class="plan-btn">Kontaktoni Shitjet</button>
+                </div>
+            </div>
+            <div class="station-section">
+                <h2 class="section-title">Stacionet Meteorologjike</h2>
+                <div class="station-grid">
+                    <div class="station-card">
+                        <div class="station-image">
+                            <img src="./assets/about-weather-station.jpg" alt="Weather Station">
+                        </div>
+                        <h3>Stacioni Bazik</h3>
+                        <p class="station-price">€129.99</p>
+                        <p>Stacion meteorologjik për shtëpi me matje të temperaturës, lagështisë dhe presionit atmosferik.</p>
+                        <ul class="station-features">
+                            <li>• Sensor i temperaturës (-40°C deri +60°C)</li>
+                            <li>• Matje e lagështisë (10% - 99%)</li>
+                            <li>• Barometër i integruar</li>
+                            <li>• Ekran LCD me ndriqim të rregullueshëm</li>
+                            <li>• Memorim i të dhënave për 7 ditë</li>
+                        </ul>
+                        <button class="station-btn">Blej Tani</button>
+                    </div>
+
+                    <div class="station-card featured">
+                        <div class="popular-badge">MË I SHITUR</div>
+                        <div class="station-image">
+                            <img src="./assets/about-weather-station.jpg" alt="Weather Station Pro">
+                        </div>
+                        <h3>Stacioni Pro</h3>
+                        <p class="station-price">€299.99</p>
+                        <p>Stacion i avancuar me WiFi, matje të erës, reshjeve dhe rrezatimit diellor.</p>
+                        <ul class="station-features">
+                            <li>• Të gjitha karakteristikat bazike</li>
+                            <li>• Anemometër (matje e erës)</li>
+                            <li>• Pluviometër (matje e reshjeve)</li>
+                            <li>• Sensor i rrezatimit UV</li>
+                            <li>• Lidhje WiFi dhe aplikacion mobil</li>
+                            <li>• Eksport të dhënash në cloud</li>
+                        </ul>
+                        <button class="station-btn primary">Blej Tani</button>
+                    </div>
+
+                    <div class="station-card">
+                        <div class="station-image">
+                            <img src="./assets/about-weather-station.jpg" alt="Weather Station Enterprise">
+                        </div>
+                        <h3>Stacioni Enterprise</h3>
+                        <p class="station-price">€799.99</p>
+                        <p>Zgjidhje profesionale për biznese, ferma dhe institucione me sensorë të shumtë.</p>
+                        <ul class="station-features">
+                            <li>• Të gjitha karakteristikat Pro</li>
+                            <li>• Sensorë të shumtë të temperaturës</li>
+                            <li>• Matje e cilësisë së ajrit</li>
+                            <li>• Sensor i lagështisë së tokës</li>
+                            <li>• Panel diellor për energji</li>
+                            <li>• API për integrime</li>
+                            <li>• Garanci 5 vjet</li>
+                        </ul>
+                        <button class="station-btn">Kontaktoni</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="comparison-section">
+        <div class="container">
+            <h2 class="section-title">Krahasimi i Planeve</h2>
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Karakteristika</th>
+                            <th>Bazik</th>
+                            <th>Pro</th>
+                            <th>Enterprise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Parashikimi aktual</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Parashikimi për ditë</td>
+                            <td>3 ditë</td>
+                            <td>7 ditë</td>
+                            <td>14 ditë</td>
+                        </tr>
+                        <tr>
+                            <td>Kërkime/ditë</td>
+                            <td>10</td>
+                            <td>∞</td>
+                            <td>∞</td>
+                        </tr>
+                        <tr>
+                            <td>Harta interaktive</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>API Access</td>
+                            <td>✗</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Mbështetje</td>
+                            <td>Email</td>
+                            <td>Email + Chat</td>
+                            <td>24/7 Prioritare</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>☀️ WeatherApp</h3>
+                    <p>Aplikacioni juaj i besueshëm për parashikimin e motit</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Lidhje të Shpejta</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                     <div class="footer-section">
+                    <h4>Kontakti</h4>
+                    <p>Email: WeatherApp@gmail.com </p>
+                    <p>Tel: +383 44 123 456</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WeatherApp. Të gjitha të drejtat e rezervuara.</p>
+            </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./script.js"></script>
+</body>
+
+</html>
