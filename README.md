@@ -1,46 +1,11 @@
-✨ Çfarë Ofron WeatherApp
-🏠 Home – Parashikimi i Motit
+☀️ WeatherApp është një aplikacion web modern për parashikimin e motit, i ndërtuar duke përdorur HTML, CSS dhe JavaScript. 
 
-Kërkim i qytetit sipas emrit
+Ky projekt u mundëson përdoruesve të kërkojnë motin për çdo qytet të botës dhe të marrin informacione të detajuara si 🌡️ temperatura aktuale, 🤒 ndjesia reale, 💨 shpejtësia e erës, 💧 lagështia, 👁️ dukshmëria dhe përshkrimi i kushteve atmosferike. Aplikacioni ofron gjithashtu 📅 parashikimin e motit për 7 ditë, duke e bërë shumë të dobishëm për planifikimin e aktiviteteve ditore dhe javore.
 
-Shfaqje e të dhënave të motit në kohë reale
+📱 WeatherApp ka dizajn responsive, prandaj funksionon në mënyrë korrekte në desktop, tablet dhe pajisje mobile. Projekti përmban disa faqe funksionale si 🏠 Home, 🛠️ Services, 🛒 Products dhe 📩 Contact, të lidhura përmes një navigation bar-i modern me menu të dedikuar edhe për pajisje mobile. Faqja Home shërben për kërkimin e qytetit dhe shfaqjen e të dhënave të motit, Services prezanton shërbimet meteorologjike që ofron aplikacioni, Products paraqet planet dhe pajisjet meteorologjike, ndërsa Contact përmban formën e kontaktit, informacionet e kompanisë dhe 🗺️ një hartë të integruar me Google Maps.
 
-Ndërfaqe moderne me background dinamik
+⚙️ WeatherApp përdor një Weather API për marrjen e të dhënave në kohë reale përmes një 🔑 API key. Projekti mund të ekzekutohet duke klonuar repository-n, duke e hapur në një editor si Visual Studio Code dhe duke përdorur Live Server ose duke hapur drejtpërdrejt skedarin index.html në browser.
 
-UX i thjeshtë dhe i kuptueshëm
+🎓 Ky projekt është zhvilluar për qëllime edukative dhe demonstron përdorimin e teknologjive bazë të web-it, organizimin e një aplikacioni me shumë faqe, si dhe integrimin e shërbimeve të jashtme si API dhe Google Maps.
 
-🛠️ Services – Shërbimet
-
-Përshkrimi Real-Time – të dhëna aktuale të motit
-
-Parashikimi 7-Ditor – planifikim javor
-
-Analiza e Erës – shpejtësia dhe drejtimi
-
-Ndjekja e Stuhive – kushte ekstreme
-
-Paralajmërime Moti – njoftime sigurie
-
-Të Dhëna Klimës – statistika afatgjata
-
-📦 Products – Paketat
-
-WeatherPro Mobile – $4.99/muaj
-
-WeatherPro Desktop – $9.99/muaj (POPULAR)
-
-WeatherPro Wearable – $2.99/muaj
-
-WeatherPro Enterprise – Custom Pricing
-
-📩 Contact – Kontakti
-
-Formë kontakti me validim të të dhënave
-
-Event handling dhe manipulim DOM
-
-❗ Aplikacioni NUK mund të përdoret pa liveserver.
-
-Website nuk mun ti bëj fetch API keys nëse nuk bëhet launch me liveserver.
-
-
+© 2025 WeatherApp – Të gjitha të drejtat e rezervuara.
