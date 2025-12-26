@@ -486,4 +486,266 @@ body {
     max-height: 80%;
     object-fit: contain;
 }
+.service-icon {
+    font-size: 80px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E3A8A;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    color: #6B7280;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.service-features {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.service-features li {
+    color: #6B7280;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.service-btn {
+    width: 100%;
+    padding: 1rem;
+    background: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.service-btn:hover {
+    background: #1E3A8A;
+    transform: translateY(-2px);
+}
+
+
+.cta-section {
+    background: linear-gradient(135deg, #1E3A8A, #3B82F6);
+    padding: 4rem 0;
+    text-align: center;
+    color: white;
+}
+
+.cta-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.cta-content p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta-btn {
+    padding: 1rem 3rem;
+    background: white;
+    color: #1E3A8A;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.products-content {
+    padding: 4rem 0;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.pricing-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.pricing-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-card.featured {
+    border: 3px solid #3B82F6;
+    transform: scale(1.05);
+}
+
+.plan-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #E5E7EB;
+    color: #1F2937;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.plan-badge.popular {
+    background: #FBBF24;
+    color: white;
+}
+
+.pricing-card h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1E3A8A;
+    margin-bottom: 1rem;
+}
+
+.plan-price {
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1E3A8A;
+}
+
+.period {
+    font-size: 18px;
+    color: #6B7280;
+}
+
+.plan-description {
+    color: #6B7280;
+    margin-bottom: 1.5rem;
+}
+
+.plan-features {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.plan-features li {
+    padding: 0.75rem 0;
+    color: #6B7280;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.plan-btn {
+    width: 100%;
+    padding: 1rem;
+    background: #E5E7EB;
+    color: #1F2937;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.plan-btn:hover {
+    background: #D1D5DB;
+}
+
+.plan-btn.primary {
+    background: #3B82F6;
+    color: white;
+}
+
+.plan-btn.primary:hover {
+    background: #1E3A8A;
+}
+
+
+.station-section {
+    margin-top: 4rem;
+}
+
+.station-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.station-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.station-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.station-card.featured {
+    border: 3px solid #3B82F6;
+}
+
+.popular-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #FBBF24;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.station-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.station-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.station-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E3A8A;
+    padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.station-price {
+    font-size: 28px;
+    font-weight: 700;
+    color: #3B82F6;
+    padding: 0 1.5rem 1rem;
+}
 
