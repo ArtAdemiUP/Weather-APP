@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+    <title>Services - WeatherApp</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">☀️ WeatherApp</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Shërbimet Tona</h1>
+            <p>Zgjidhje të plota për parashikimin e motit</p>
+        </div>
+    </section>
+
+ 
+    <section class="services-content">
+        <div class="container">
+            <div class="services-grid">
+              
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./assets/services-icon-forecast.png" alt="Parashikimi 7 Ditë">
+                    </div>
+                    <h3>Parashikimi për 7 Ditë</h3>
+                    <p>Merrni parashikime të detajuara të motit për 7 ditët e ardhshme. Planifikoni aktivitetet tuaja me besim duke ditur se çfarë moti ju pret.</p>
+                    <ul class="service-features">
+                        <li>✓ Temperatura maksimale dhe minimale</li>
+                        <li>✓ Shpejtësia e erës dhe drejtimi</li>
+                        <li>✓ Lagështia dhe reshjet</li>
+                        <li>✓ Përditësime në kohë reale</li>
+                    </ul>
+                    <button class="service-btn" onclick="window.location.href='index.html'">Provoni Tani</button>
+                </div>
+
+             
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./assets/services-icon-alerts.png" alt="Alarme Moti">
+                    </div>
+                    <h3>Alarme dhe Paralajmërime</h3>
+                    <p>Merrni njoftimet e rëndësishme për kushtet ekstreme të motit si stuhitë, reshjet e forta, temperaturat ekstreme dhe më shumë.</p>
+                    <ul class="service-features">
+                        <li>✓ Paralajmërime për stuhi</li>
+                        <li>✓ Njoftimet për temperatura ekstreme</li>
+                        <li>✓ Alarme për reshje të forta</li>
+                        <li>✓ Njoftime në kohë reale</li>
+                    </ul>
+                    <button class="service-btn">Shiko Detajet</button>
+                </div>
+
+              
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./assets/services-icon-maps.png" alt="Harta e Motit">
+                    </div>
+                    <h3>Harta Interaktive e Motit</h3>
+                    <p>Eksploroni hartat interaktive të motit që tregojnë reshjet, temperaturat, presionin atmosferik dhe më shumë në nivel global.</p>
+                    <ul class="service-features">
+                        <li>✓ Harta e reshjeve dhe shiut</li>
+                        <li>✓ Harta e temperaturave</li>
+                        <li>✓ Harta e erës dhe presionit</li>
+                        <li>✓ Vizualizim në kohë reale</li>
+                    </ul>
+                    <button class="service-btn">Shfleto Hartat</button>
+                </div>
+
+           
+                <div class="service-card">
+                    <div class="service-image">
+                        <div class="service-icon">⏰</div>
+                    </div>
+                    <h3>Parashikimi Orë për Orë</h3>
+                    <p>Merrni informacione të detajuara për motin orë për orë për 48 orët e ardhshme. Ideal për planifikimin e aktiviteteve ditore.</p>
+                    <ul class="service-features">
+                        <li>✓ Parashikim për 48 orë</li>
+                        <li>✓ Temperatura dhe ndjesia</li>
+                        <li>✓ Mundësia e reshjeve</li>
+                        <li>✓ Indeksi UV</li>
+                    </ul>
+                    <button class="service-btn">Shiko Më Shumë</button>
+                </div>
+
+             
+                <div class="service-card">
+                    <div class="service-image">
+                        <div class="service-icon">🌬️</div>
+                    </div>
+                    <h3>Cilësia e Ajrit</h3>
+                    <p>Monitoroni cilësinë e ajrit në zonën tuaj. Merrni informacione për nivelin e ndotjes dhe rekomandime për shëndetin tuaj.</p>
+                    <ul class="service-features">
+                        <li>✓ Indeksi i cilësisë së ajrit (AQI)</li>
+                        <li>✓ Nivelet e ndotësve</li>
+                        <li>✓ Rekomandime shëndetësore</li>
+                        <li>✓ Historiku i cilësisë së ajrit</li>
+                    </ul>
+                    <button class="service-btn">Kontrollo Ajrin</button>
+                </div>
+
+              
+                <div class="service-card">
+                    <div class="service-image">
+                        <div class="service-icon">☀️</div>
+                    </div>
+                    <h3>Indeksi UV dhe Dielli</h3>
+                    <p>Merrni informacione për indeksin UV, kohën e lindjes dhe perëndimit të diellit, dhe rekomandime për mbrojtjen nga dielli.</p>
+                    <ul class="service-features">
+                        <li>✓ Indeksi UV në kohë reale</li>
+                        <li>✓ Koha e lindjes/perëndimit</li>
+                        <li>✓ Rekomandime për mbrojtje</li>
+                        <li>✓ Parashikimi i rrezatimit diellor</li>
+                    </ul>
+                    <button class="service-btn">Shiko Indeksin</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Gati për të Filluar?</h2>
+                <p>Merrni parashikimin e motit më të saktë për qytetin tuaj tani</p>
+                <button class="cta-btn" onclick="window.location.href='index.html'">Kërko Motin</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>☀️ WeatherApp</h3>
+                    <p>Aplikacioni juaj i besueshëm për parashikimin e motit</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Lidhje të Shpejta</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                     <div class="footer-section">
+                    <h4>Kontakti</h4>
+                    <p>Email: WeatherApp@gmail.com </p>
+                    <p>Tel: +383 44 123 456</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WeatherApp. Të gjitha të drejtat e rezervuara.</p>
+            </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./script.js"></script>
+</body>
+
+</html>
