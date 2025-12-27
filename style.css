@@ -748,4 +748,246 @@ body {
     color: #3B82F6;
     padding: 0 1.5rem 1rem;
 }
+.station-card > p {
+    color: #6B7280;
+    padding: 0 1.5rem 1rem;
+    line-height: 1.6;
+}
+
+.station-features {
+    list-style: none;
+    padding: 0 1.5rem 1.5rem;
+}
+
+.station-features li {
+    color: #6B7280;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.station-btn {
+    width: calc(100% - 3rem);
+    margin: 0 1.5rem 1.5rem;
+    padding: 1rem;
+    background: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.station-btn:hover {
+    background: #1E3A8A;
+}
+
+.station-btn.primary {
+    background: #1E3A8A;
+}
+
+.station-btn.primary:hover {
+    background: #3B82F6;
+}
+
+
+.comparison-section {
+    padding: 4rem 0;
+    background: white;
+}
+
+.comparison-table {
+    overflow-x: auto;
+    margin-top: 2rem;
+}
+
+.comparison-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.comparison-table th {
+    background: #1E3A8A;
+    color: white;
+    font-weight: 600;
+}
+
+.comparison-table td:first-child {
+    text-align: left;
+    font-weight: 500;
+    color: #1F2937;
+}
+
+.comparison-table tr:hover {
+    background: #F0F9FF;
+}
+
+
+.contact-section {
+    padding: 4rem 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.contact-form-container h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1E3A8A;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    color: #1F2937;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3B82F6;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 1rem;
+    background: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #1E3A8A;
+    transform: translateY(-2px);
+}
+
+.form-message {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    display: none;
+}
+
+.form-message.success {
+    background: #D1FAE5;
+    color: #065F46;
+    display: block;
+}
+
+.form-message.error {
+    background: #FEE2E2;
+    color: #991B1B;
+    display: block;
+}
+
+
+.contact-info-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.contact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-info-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E3A8A;
+    margin-bottom: 1.5rem;
+}
+
+.info-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.info-icon {
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.info-content h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1E3A8A;
+    margin-bottom: 0.5rem;
+}
+
+.info-content p {
+    color: #6B7280;
+    line-height: 1.6;
+}
+
+.social-links {
+    margin-top: 2rem;
+}
+
+.social-links h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1E3A8A;
+    margin-bottom: 1rem;
+}
 
